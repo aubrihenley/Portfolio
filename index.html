@@ -1,276 +1,436 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Aubri Henley Portfolio</title>
-    <link rel="stylesheet" href="css/main.css">
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
   </head>
+
   <body>
-    <section class="hero is-medium">
-      <div class="hero-body">
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="img/preloader.gif" alt="" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Scroll Up Button -->
+
+    <form action="#home">
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </form>
+    <!-- End Scroll Up Button -->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#home">
+                  Home
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#about-me">
+                  About Me
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#services">
+                  Services
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#skills">
+                  Skills
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#my-work">
+                  My Work
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#contact">
+                  Contact
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Hey there, I'm</h1>
+            <h2 class="title">Aubri</h2>
+            <h1 class="subtitle profession">A FULL STACK DEVELOPER</h1>
+          </div>
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about-me">About Me</a>
+                  </li>
+                  <li>
+                    <a href="#skills">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#my-work">My Work</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me" id="about-me">
         <div class="container">
-          <div class="columns">
-            <div class="column is-8-desktop is-offset-2-desktop">
-              <h1 class="title is-2 is-spaced">
-                Hello Bulma!
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">About Me</h1>
+          </div>
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+              <p class="is-larger">
+                &emsp;&emsp;<strong>
+                  I am a full stack web developer. 
+                  I have always had a love of learning which lead me to get my Bachelors of Education in 2007. 
+                  After searching for a more creative outlet in my career that also incorporated my love for learning I started 
+                  teaching myself to code.</strong></p>
+              <br>
+              <p class="is-larger">
+                &emsp;&emsp;<strong>
+                  After realizing that I enjoyed the challenge of coding I decided to take my learning to the next level and joined 
+                  the full stack Web Developer Boot Camp at UNC Chapel Hill.
+              </strong></p>
+              <br>
+              <p class="is-larger">
+                    &emsp;&emsp;<strong>
+                  I am based out of Asheboro, North Carolina. 
+                  In my free time I enjoy roller skating and hiking with my kids, reading, and crocheting.</strong>
+              </p>
+              <br>
+              <div class="is-divider"></div>
+              <div class="columns about-links">
+                <div class="column">
+                  <p class="heading">
+                    <strong>Give me a ring</strong>
+                  </p>
+                  <p class="subheading">
+                    704-524-8940
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="heading">
+                    <strong>Email Me</strong>
+                  </p>
+                  <p class="subheading">
+                    aubri.henley@gmail.com
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="heading">
+                    <strong>View my LinkedIn</strong>
+                  </p>
+                 <a class ="subheading" href="https://www.linkedin.com/in/aubri-henley/">https://www.linkedin.com/in/aubri-henley/</a>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6 right-image " data-aos="fade-left">
+              <figure class= "is=128x128">
+                <img class="is-rounded" src="./css/images/portrait-aubri.png" alt="Portrait of Aubri Henley"/>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me Content -->
+      <div class="section-dark resume">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                View My Resume
               </h1>
-              <h2 class="subtitle is-4">
-                  Congratulations! You're running the <strong>Bulma start</strong> project.
-                  <br>
-                  It includes everything you need to <strong>build your own website</strong> with Bulma.
+            </div>
+            <div class="column is-10 has-text-centered is-offset-1">
+              <h2 class="subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et doloremagna aliqua
               </h2>
+              <form action="example.docs">
+                <button class="button">
+                  Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
+                </button>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-          <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-        </a>
     
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-    
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item">
-            Home
-          </a>
-    
-          <a class="navbar-item">
-            Documentation
-          </a>
-    
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              More
-            </a>
-    
-            <div class="navbar-dropdown">
-              <a class="navbar-item">
-                About
-              </a>
-              <a class="navbar-item">
-                Jobs
-              </a>
-              <a class="navbar-item">
-                Contact
-              </a>
-              <hr class="navbar-divider">
-              <a class="navbar-item">
-                Report an issue
-              </a>
+      <!-- Begin Skills Content -->
+      <div class="section-light skills" id="skills">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">Skills</h1>
             </div>
-          </div>
-        </div>
-    
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <a class="button is-light">
-                Log in
-              </a>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>Adobe Experience Design</h1>
+              <progress class="progress is-danger" value="70" max="100">70%</progress>
+              <h1>Adobe After Effects</h1>
+              <progress class="progress is-danger" value="65" max="100">65%</progress>
+              <h1>Visual Studio Code</h1>
+              <progress class="progress is-danger" value="58" max="100">58%</progress>
+              <h1>Sketch</h1>
+              <progress class="progress is-danger" value="90" max="100">90%</progress>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>HTML</h1>
+              <progress class="progress is-danger" value="85" max="100">85%</progress>
+              <h1>CSS</h1>
+              <progress class="progress is-danger" value="95" max="100">95%</progress>
+              <h1>VueJS</h1>
+              <progress class="progress is-danger" value="70" max="100">70%</progress>
+              <h1>React</h1>
+              <progress class="progress is-danger" value="60" max="100">60%</progress>
             </div>
           </div>
         </div>
       </div>
-    </nav>
-    <section class="section">
-      <div class="container">
-        <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">
-            <div class="content">
-              <h3>What's included</h3>
-              <p>
-                The <code>npm</code> dependencies included in <code>package.json</code> are:
-              </p>
-              <ul>
-                <li>
-                  <code><a href="https://github.com/jgthms/bulma">bulma</a></code>
-                </li>
-                <li>
-                  <code><a href="https://github.com/sass/node-sass">node-sass</a></code> to compile your own Sass file
-                </li>
-                <li>
-                  <code><a href="https://github.com/postcss/postcss-cli">postcss-cli</a></code> and <code><a href="https://github.com/postcss/autoprefixer">autoprefixer</a></code> to add support for older browsers
-                </li>
-                <li>
-                  <code><a href="https://babeljs.io/docs/usage/cli/">babel-cli</a></code>,
-                  <code><a href="https://github.com/babel/babel-preset-env">babel-preset-env</a></code>
-                  and
-                  <code><a href="https://github.com/jmcriffey/babel-preset-es2015-ie">babel-preset-es2015-ie</a></code>
-                  for compiling ES6 JavaScript files
-                </li>
-              </ul>
-              <p>
-                Apart from <code>package.json</code>, the following files are included:
-              </p>
-              <ul>
-                <li>
-                  <code>.babelrc</code> configuration file for <a href="https://babeljs.io/">Babel</a>
-                </li>
-                <li>
-                  <code>.gitignore</code> common <a href="https://git-scm.com/">Git</a> ignored files
-                </li>
-                <li>
-                  <code>index.html</code> this HTML5 file
-                </li>
-                <li>
-                  <code>_sass/main.scss</code> a basic SCSS file that <strong>imports Bulma</strong> and explains how to <strong>customize</strong> your styles, and compiles to <code>css/main.css</code>
-                </li>
-                <li>
-                  <code>_javascript/main.js</code> an ES6 JavaScript that compiles to <code>lib/main.js</code>
-                </li>
-              </ul>
-              <h3>Try it out!</h3>
-              <p>
-                To see if your setup works, follow these steps:
-              </p>
-              <ol>
-                <li>
-                  <p>
-                    <strong>Move</strong> to this directory:
-                    <br>
-                    <pre><code>cd bulma-start</code></pre>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>Install</strong> all dependencies:
-                    <br>
-                    <pre><code>npm install</code></pre>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>Start</strong> the CSS and JS watchers:
-                    <br>
-                    <pre><code>npm start</code></pre>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>Edit</strong> <code>_sass/main.scss</code> by adding the following rule at the <strong>end</strong> of the file:
-                    <br>
-                    <pre><span style="color: #22863a;">html</span> {
-  <span style="color: #005cc5;"><span style="color: #005cc5;">background-color</span></span>: <span style="color: #24292e">$green</span>;
-}</pre>
-                  </p>
-                </li>
-              </ol>
-              <p>
-                The page background should turn <strong class="has-text-success">green</strong>!
-              </p>
-              <h3>Get started</h3>
-              <p>
-                You're <strong>ready</strong> to create your own designs with Bulma. Just edit or duplicate this page, or simply create a new one!
-                <br>
-                For example, this page is <strong>only</strong> built with the following <strong>Bulma elements</strong>:
-              </p>
+      <!-- End Skills Content -->
+      <!-- Begin Work Content -->
+      <div class="section-dark my-work" id="my-work">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">My Work</h1>
             </div>
-            <table class="table is-bordered is-fullwidth">
-              <thead>
-                <tr>
-                  <th>Type</th>
-                  <th>CSS class</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th>Columns</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/columns/basics">columns</a></code>
-                    <code><a href="http://bulma.io/documentation/columns/basics">column</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Layout</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/layout/section">section</a></code>
-                    <code><a href="http://bulma.io/documentation/layout/container">container</a></code>
-                    <code><a href="http://bulma.io/documentation/layout/footer">footer</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Elements</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/elements/button">button</a></code>
-                    <code><a href="http://bulma.io/documentation/elements/content">content</a></code>
-                    <code><a href="http://bulma.io/documentation/elements/title">title</a></code>
-                    <code><a href="http://bulma.io/documentation/elements/title">subtitle</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Form</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/form/general">field</a></code>
-                    <code><a href="http://bulma.io/documentation/form/general">control</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Helpers</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/modifiers/typography-helpers/">has-text-centered</a></code>
-                    <code><a href="http://bulma.io/documentation/modifiers/typography-helpers/">has-text-weight-semibold</a></code>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="content">
-              <p>
-                If you want to <strong>learn more</strong>, follow these links:
-              </p>
-            </div>
-            <div class="field is-grouped">
-              <p class="control">
-                <a class="button is-medium is-primary" href="http://bulma.io">
-                  <strong class="has-text-weight-semibold">Bulma homepage</strong>
-                </a>
-              </p>
-              <p class="control">
-                <a class="button is-medium is-link" href="http://bulma.io/documentation/overview/start/">
-                  <strong class="has-text-weight-semibold">Documentation</strong>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="footer has-text-centered">
-      <div class="container">
-         <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">
-            <p>
-              <strong class="has-text-weight-semibold">
-                <a href="https://www.npmjs.com/package/bulma-start">bulma-start@0.0.4</a>
-              </strong>
-            </p>
-            <p>
-              <small>
-                Source code licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
-              </small>
-            </p>
-            <p style="margin-top: 1rem;">
-              <a href="http://bulma.io">
-                <img src="made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=0');"
+                ></figure>
               </a>
-            </p>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=10');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=20');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=30');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=40');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=50');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=60');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=70');"
+                ></figure>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <script type="text/javascript" src="lib/main.js"></script>
+      <!-- End Work Content -->
+      <!-- Begin Contact Content -->
+      <div class="section-light contact" id="contact">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in-up"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                Get in touch
+              </h1>
+            </div>
+            <div class="column is-8 is-offset-2">
+              <form
+                action="https://formspree.io/aubri.henley@gmail.com"
+                method="POST"
+              >
+                <div class="field">
+                  <label class="label">Name</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="Ex. Jane Smith"
+                      name="Name"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="email"
+                      placeholder="Ex. hello@arctheme.com"
+                      name="Email"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                    <textarea
+                      class="textarea"
+                      placeholder="Textarea"
+                      name="Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control ">
+                    <button class="button submit-button">
+                      Submit&nbsp;&nbsp;
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <p>
+        <strong class="white">Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>.
+        The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="_javascript/main.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
   </body>
 </html>
