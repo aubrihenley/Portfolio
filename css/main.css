@@ -4,6 +4,14 @@
   flex-direction: column;
   justify-content: center;
 }
+:root {
+  --dark: #1f2c6c; 
+  --purple: #c09ac0;
+  --light: #f8f2f6;
+  --yellow-green: #D4FF51;
+  --crimson:#990033;
+}
+
 
 * {
   box-sizing: border-box;
@@ -64,6 +72,10 @@ html {
   height: 50px;
 }
 
+.hero-menu-desktop{
+  background-color: var(--yellow-green);
+}
+
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
   line-height: 38px;
   font-weight: 600;
@@ -79,17 +91,17 @@ html {
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
-  border-bottom: 2px solid #1f2c6c;
+  border-bottom: 2px solid var(--dark);
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
-  color: #1f2c6c;
+  color: var(--dark);
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
-  color: #1f2c6c;
+  color: var(--dark);
   transition: all .2s ease-in-out;
-  border-bottom: 2px solid #1f2c6c;
+  border-bottom: 2px solid var(--dark);
 }
 
 .main-content {
@@ -99,7 +111,7 @@ html {
 }
 
 .main-content .section-dark {
-  background-color: #f0f3f5;
+  background-color: var(--purple);
   padding: 60px 0px;
 }
 
@@ -129,7 +141,7 @@ html {
 }
 
 .main-content .section-dark.resume .fa-download {
-  color: #1f2c6c;
+  color: var(--dark);
 }
 
 .main-content .section-dark.my-work {
@@ -255,7 +267,7 @@ html {
   height: 80px;
   line-height: 25px;
   text-align: center;
-  background: #1f2c6c;
+  background: var(--dark);
   color: whitesmoke;
   padding-top: 2rem;
 }
@@ -322,7 +334,7 @@ body.preloader-site {
 .preloader-wrapper {
   height: 100%;
   width: 100%;
-  background: #1f2c6c;
+  background: var(--dark);
   position: fixed;
   top: 0;
   left: 0;
