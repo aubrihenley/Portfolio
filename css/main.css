@@ -7,7 +7,7 @@
 :root {
   --dark: #1f2c6c; 
   --purple: #c09ac0;
-  --light: #f8f2f6;
+  --light: #ddd0da;
   --yellow-green: #D4FF51;
   --crimson:#990033;
 }
@@ -258,6 +258,10 @@ html {
   font-size: 1.8rem;
   letter-spacing: 2px;
   padding-bottom: 30px;
+}
+
+.card-footer-item{
+  background-color: var(--light);
 }
 
 .footer {
